@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Muli|Nanum+Gothic:400,700,800|Oxygen:300,400,700|Poppins:300,400,500,700|Raleway:300,400,500,700,800");
+body {
+  margin: 0; }
+  body p {
+    color: #4A4A4A;
+    font-family: "helvetica";
+    font-weight: 200;
+    padding-bottom: 10px; }
+  body .intro-text {
+    font-size: 24px;
+    font-weight: 200; }
+  body h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 64px;
+    color: #FF1307; }
+  body h3 {
+    color: #32C5DD;
+    font-size: 36px;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-right: 20px; }
+  body h4 {
+    color: #05BCB0;
+    font-size: 24px;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; }
+  body h5 {
+    color: #97B306;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300; }
+  body .v-orange h3 {
+    color: #FF8A57; }
+  body .v-orange .intro-header i {
+    color: #32C5DD;
+    font-size: 50px; }
+  body .v-green h3 {
+    color: #97B306; }
+  body .v-green h5 {
+    color: #FF8A57; }
+  body .v-green .intro-header i {
+    color: #05BCB0;
+    font-size: 50px; }
+  body .intro-header {
+    margin-bottom: 50px; }
+    body .intro-header img {
+      vertical-align: baseline; }
+  body a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #FF8A57; }
+    body a:hover {
+      color: #97B306; }
+  body ul {
+    padding-left: 0; }
+    body ul li {
+      display: inline-block;
+      list-style-type: none; }
+  body .btn-end {
+    float: right;
+    color: #4A4A4A;
+    margin-top: 30px;
+    font-weight: lighter; }
+  body table {
+    border-collapse: collapse; }
+    body table th, body table td {
+      border: 1px solid #CFCFCF;
+      padding: 15px;
+      font-family: "helvetica";
+      font-size: 15px;
+      font-weight: lighter; }
+    body table th {
+      background-color: #05BCB0;
+      color: white;
+      padding: 8px; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 120px 0; }
+
+.row {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+header {
+  min-height: 800px;
+  background: transparent; }
+  header img {
+    width: 1174px;
+    height: 786px;
+    vertical-align: middle; }
+
+div.parallax-window {
+  min-height: 150px;
+  background: transparent; }
+  div.parallax-window img {
+    vertical-align: middle; }
+
+.navbar {
+  padding: 10px 0;
+  border: 0.5px #DADADA solid;
+  background-color: white; }
+  .navbar .container {
+    padding: 0; }
+  .navbar form input {
+    height: 25px; }
+  .navbar .form-control {
+    font-weight: 100;
+    font-size: 15px; }
+  .navbar ul {
+    margin: 0;
+    vertical-align: middle; }
+    .navbar ul a {
+      padding: 5px 8px;
+      font-style: "helvetica";
+      font-size: 13px;
+      font-weight: 100;
+      text-decoration: none;
+      color: #4A4A4A; }
+      .navbar ul a:hover {
+        font-weight: bold;
+        color: #4A4A4A; }
+    .navbar ul .btn-next {
+      border: #979797 1px solid;
+      display: inline-block;
+      margin: auto;
+      padding: 2px 5px;
+      border-radius: 6px; }
+      .navbar ul .btn-next:hover {
+        background-color: #4A4A4A;
+        color: white;
+        border: 1px solid transparent;
+        font-weight: 100; }
+  .navbar .input-group-text {
+    background-color: transparent;
+    height: 25px;
+    border: 0; }
+  .navbar .input-group > .custom-select:not(:first-child), .navbar .input-group > .form-control:not(:first-child) {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem; }
+
+#welcome {
+  text-align: center;
+  padding: 150px 0; }
+  #welcome h2 {
+    padding-bottom: 70px;
+    font-weight: 700; }
+  #welcome .line {
+    height: 15px;
+    border-bottom: 0.5px #4A4A4A solid;
+    margin-top: 10px; }
+  #welcome p {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 300; }
+  #welcome .text {
+    margin-bottom: 90px; }
+
+#more-intro h5 {
+  padding-top: 30px; }
+#more-intro p {
+  font-size: 24px; }
+  #more-intro p span {
+    color: #32C5DD; }
+#more-intro .end-text {
+  margin-top: 100px;
+  color: #FF8A57;
+  text-align: center; }
+
+#program-intro p {
+  font-size: 24px; }
+#program-intro .end-text {
+  margin-top: 70px;
+  color: #97B306; }
+
+#stages h5 {
+  font-size: 24px;
+  padding-top: 20px; }
+#stages p {
+  font-size: 24px; }
+#stages .end-text {
+  margin-top: 70px;
+  color: #97B306; }
+
+#program-benefits h5 {
+  font-size: 24px; }
+#program-benefits .col-12 {
+  margin-bottom: 30px; }
+  #program-benefits .col-12 img {
+    display: inline-block;
+    width: auto; }
+  #program-benefits .col-12 p {
+    display: inline;
+    font-size: 16px; }
+
+#motivation ul {
+  font-family: "helvetica";
+  font-size: 16px;
+  font-weight: 100; }
+  #motivation ul li {
+    padding-bottom: 10px;
+    color: #4A4A4A; }
+    #motivation ul li i {
+      font-size: 24px;
+      color: #97B306;
+      vertical-align: middle;
+      padding-right: 10px; }
+#motivation span {
+  color: #97B306;
+  font-weight: normal; }
+
+#expectation p {
+  font-size: 20px;
+  font-weight: 100;
+  padding: 0;
+  margin: 0; }
+
+#diabetes-intro h3 {
+  font-family: 'Poppins', sans-serif; }
+#diabetes-intro img {
+  padding-left: 20px;
+  position: relative; }
+#diabetes-intro .intro-header {
+  margin-bottom: 100px; }
+
+.diabetes-detail h4 {
+  color: #05BCB0;
+  font-size: 24px;
+  padding-bottom: 50px;
+  font-family: 'Poppins', sans-serif; }
+.diabetes-detail .icons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+  .diabetes-detail .icons p {
+    width: 30%;
+    font-weight: lighter; }
+  .diabetes-detail .icons img {
+    height: 103px; }
+
+#prediabetes img {
+  height: 66px; }
+#prediabetes .icons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around; }
+  #prediabetes .icons p {
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 15px;
+    width: 40%;
+    height: 66px; }
+#prediabetes ul {
+  font-size: 24px;
+  font-family: "helvetica";
+  font-weight: bold;
+  color: #05BCB0;
+  width: 650px;
+  display: flex;
+  justify-content: space-between; }
+#prediabetes b {
+  color: #05BCB0; }
+#prediabetes .intro-text:last-child {
+  padding-top: 40px; }
+
+#goals .icons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around; }
+  #goals .icons p {
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 15px;
+    width: 60%;
+    margin-top: 0;
+    height: 66px; }
+  #goals .icons img {
+    height: 30px; }
+#goals i {
+  font-size: 30px;
+  color: #97B306; }
+#goals .icons1 {
+  display: flex;
+  justify-content: space-around; }
+  #goals .icons1 p {
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 15px;
+    width: 60%;
+    margin-top: 0; }
+
+#benefits .intro-text {
+  color: #97B306; }
+#benefits i {
+  font-size: 20px;
+  color: #32C5DD; }
+#benefits .icons {
+  display: flex;
+  justify-content: space-between; }
+  #benefits .icons p {
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 10px;
+    width: 100%;
+    margin-top: 0; }
+  #benefits .icons .space-end {
+    padding-right: 30px; }
+
+#end h3 {
+  color: #05BCB0; }
+#end .intro-text {
+  color: #FF8A57;
+  font-weight: 300;
+  margin: 0; }
+  #end .intro-text:last-child {
+    margin: 0 30px; }
+#end .context {
+  font-size: 18px;
+  font-weight: lighter; }
+  #end .context span {
+    font-weight: 400; }
+#end .form {
+  display: inline-block; }
+#end .space-after {
+  padding-right: 10px; }
+#end .spcae-before {
+  padding-left: 10px; }
+#end form {
+  display: inline;
+  margin: 0; }
+  #end form input {
+    border: 0px solid #000000;
+    border-bottom-width: 1px;
+    background-color: transparent;
+    width: 40px;
+    font-size: 18px;
+    color: #4A4A4A;
+    text-align: center; }
+#end table {
+  padding-left: 50px;
+  display: inline; }
+
+#start-weight-loss .special-text {
+  color: #FF8A57;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: "helvetica";
+  padding-top: 10px; }
+
+#sally span {
+  color: #FF8A57;
+  font-style: italic; }
+#sally table {
+  border-collapse: collapse;
+  width: 100%; }
+  #sally table th {
+    background-color: #05BCB0;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 300px; }
+  #sally table #t-categories th {
+    background-color: white;
+    color: #97B306;
+    font-weight: 500; }
+  #sally table #t-total th {
+    background-color: #FF8A57;
+    font-weight: 500; }
+  #sally table .extra {
+    color: #FF8A57; }
+
+#track-food p {
+  padding-top: 10px; }
+#track-food .col-12 {
+  margin-bottom: 30px; }
+  #track-food .col-12 img {
+    display: inline-block;
+    width: auto; }
+  #track-food .col-12 p {
+    display: inline;
+    font-size: 16px; }
+  #track-food .col-12 i {
+    color: #32C5DD;
+    font-size: 20px;
+    padding-right: 10px; }
+
+#objects-serving table {
+  width: 100%; }
+  #objects-serving table img {
+    padding-right: 10px; }
+
+#hand-serving .video {
+  position: relative;
+  padding-bottom: 55%; }
+#hand-serving iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+#food-label .label {
+  padding: 0; }
+#food-label .label-text {
+  display: none;
+  padding-top: 10%; }
+  #food-label .label-text p {
+    font-size: 18px; }
+  #food-label .label-text .intro-text {
+    font-size: 20px; }
+#food-label h5 {
+  margin-top: 3rem; }
+#food-label .nutrition p {
+  display: inline;
+  font-size: 16px; }
+#food-label .nutrition i {
+  color: #32C5DD;
+  font-size: 20px;
+  padding-right: 10px; }
+#food-label .nutrition a {
+  font-style: italic; }
+
+#challenges span {
+  color: #FF8A57; }
+#challenges ul {
+  cursor: pointer; }
+  #challenges ul li {
+    display: block;
+    color: #FF8A57;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "helvetica"; }
+  #challenges ul .sList {
+    cursor: auto;
+    padding: 10px;
+    display: none; }
+    #challenges ul .sList li {
+      color: #4A4A4A;
+      font-size: 18px; }
+
+.session2-break {
+  min-height: 150px;
+  background: transparent; }
+
+#next-week span {
+  color: #FF8A57;
+  font-style: italic; }
+#next-week li {
+  display: block;
+  color: #4A4A4A; }
+#next-week .col-12 p {
+  display: inline;
+  font-size: 18px; }
+#next-week .col-12 i {
+  color: #32C5DD;
+  font-size: 20px;
+  padding-right: 10px; }
+#next-week .col-12 ul {
+  padding: 10px 40px; }
+  #next-week .col-12 ul li {
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: "helvetica"; }
+#next-week .note {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: lighter; }
+
+.modal {
+  background-color: #FFF;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+  padding: 24px;
+  width: 60%;
+  position: relative;
+  display: none;
+  font-size: 18px;
+  font-weight: lighter; }
+  .modal p {
+    margin: 5px; }
+  .modal .quesion {
+    font-weight: 400;
+    margin-top: 30px;
+    color: #97B306; }
+
+.demo-close {
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: 0;
+  z-index: 10000;
+  outline: none;
+  font-size: 30px;
+  line-height: 30px;
+  transition: transform .3s ease-in-out;
+  color: #FFF; }
+
+.btn-outline.btn-info {
+  color: #32C5DD;
+  border-color: #32C5DD; }
+
+.demo-close-btn {
+  display: none; }
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px; }
+
+/*# sourceMappingURL=main.css.map */
