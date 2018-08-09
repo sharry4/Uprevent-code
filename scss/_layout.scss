@@ -104,6 +104,9 @@ body {
                 font-size: 50px;
             }
         }
+        span {
+          color: $orange;
+        }
     }
     .intro-header {
         margin-bottom: 50px;
@@ -790,12 +793,15 @@ div.parallax-window {
 }
 
 #more-benefits-3 {
-    .checks {
-        p {
-           font-size: 18px;
-        }
+  .intro-text {
+    margin-top: 30px;
+  }
+  .checks {
+      p {
+         font-size: 20px;
+      }
 
-    }
+  }
 }
 
 #active-profile {
@@ -963,6 +969,8 @@ div.parallax-window {
   }
 }
 
+
+//Session 4
 #eat-well-ways, #eat-well-ways-2 {
   h5 {
     margin-top: 40px;
@@ -1011,8 +1019,88 @@ div.parallax-window {
   h5 {
     margin-top: 50px;
   }
+
+
 }
 
+
+//Session 5
+#make-it-work {
+  p {
+    margin-top: 30px;
+  }
+  h5 {
+    margin-top: 60px;
+  }
+}
+
+#can-find-time {
+  ul {
+    margin-left: 40px;
+    margin-top: 20px;
+    li {
+      font-size: 20px;
+    }
+  }
+  h5 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+}
+
+#keep-track {
+  ul {
+    margin-left: 50px;
+    margin-top: 15px;
+    li {
+      font-size: 20px;
+    }
+  }
+}
+
+#hw-5 {
+  .media {
+    margin-top: 30px;
+  }
+  .context {
+    display: inline;
+  }
+  form {
+      display: inline;
+      margin: 0;
+      input {
+          border: 0px solid #000000;
+          border-bottom-width: 1px;
+          background-color: transparent;
+          width: 150px;
+          font-size: 18px;
+          color: $grey;
+          text-align: center;
+
+      }
+  }
+  table {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    .long {
+      width: 50%;
+    }
+    td {
+      input {
+        width: 100%
+      }
+    }
+    .total {
+      text-align: left;
+      input {
+        width: 70%
+      }
+    }
+
+  }
+}
 
 
 //pop-up modal
