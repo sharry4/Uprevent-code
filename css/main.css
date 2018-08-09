@@ -27,15 +27,37 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500; }
   body h5 {
-    color: #97B306;
+    color: #FF8A57;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 300; }
+    font-size: 24px;
+    font-weight: 400; }
+  body .intro-header i {
+    color: #FF8A57;
+    font-size: 50px; }
+  body .checks .col-12 {
+    margin-bottom: 15px; }
+    body .checks .col-12 p {
+      display: inline;
+      font-size: 20px;
+      font-weight: 300; }
+    body .checks .col-12 i {
+      color: #32C5DD;
+      font-size: 24px;
+      padding-right: 10px; }
+  body .crossout .col-12 i {
+    color: #FF1307;
+    font-size: 28px; }
   body .v-orange h3 {
     color: #FF8A57; }
+  body .v-orange h5 {
+    color: #97B306; }
   body .v-orange .intro-header i {
     color: #32C5DD;
     font-size: 50px; }
+  body .v-orange .checks i {
+    color: #97B306; }
+  body .v-orange span {
+    color: #05BCB0; }
   body .v-green h3 {
     color: #97B306; }
   body .v-green h5 {
@@ -56,8 +78,12 @@ body {
   body ul {
     padding-left: 0; }
     body ul li {
-      display: inline-block;
-      list-style-type: none; }
+      list-style-type: none;
+      color: #4A4A4A;
+      font-family: "helvetica";
+      font-weight: 200; }
+  body .inline-ul li {
+    display: inline-block; }
   body .btn-end {
     float: right;
     color: #4A4A4A;
@@ -65,7 +91,8 @@ body {
     font-weight: lighter; }
   body table {
     border-collapse: collapse; }
-    body table th, body table td {
+    body table th,
+    body table td {
       border: 1px solid #CFCFCF;
       padding: 15px;
       font-family: "helvetica";
@@ -75,6 +102,8 @@ body {
       background-color: #05BCB0;
       color: white;
       padding: 8px; }
+  body .inside-row {
+    padding: 0; }
 
 .container {
   margin-right: auto;
@@ -94,7 +123,7 @@ header {
     vertical-align: middle; }
 
 div.parallax-window {
-  min-height: 150px;
+  min-height: 200px;
   background: transparent; }
   div.parallax-window img {
     vertical-align: middle; }
@@ -138,7 +167,8 @@ div.parallax-window {
     background-color: transparent;
     height: 25px;
     border: 0; }
-  .navbar .input-group > .custom-select:not(:first-child), .navbar .input-group > .form-control:not(:first-child) {
+  .navbar .input-group > .custom-select:not(:first-child),
+  .navbar .input-group > .form-control:not(:first-child) {
     border-top-left-radius: .25rem;
     border-bottom-left-radius: .25rem; }
 
@@ -421,21 +451,21 @@ div.parallax-window {
 #food-label .nutrition a {
   font-style: italic; }
 
-#challenges span {
+.cope-challenges span {
   color: #FF8A57; }
-#challenges ul {
+.cope-challenges ul {
   cursor: pointer; }
-  #challenges ul li {
+  .cope-challenges ul li {
     display: block;
     color: #FF8A57;
     font-size: 24px;
     font-weight: 300;
     font-family: "helvetica"; }
-  #challenges ul .sList {
+  .cope-challenges ul .sList {
     cursor: auto;
     padding: 10px;
     display: none; }
-    #challenges ul .sList li {
+    .cope-challenges ul .sList li {
       color: #4A4A4A;
       font-size: 18px; }
 
@@ -467,6 +497,171 @@ div.parallax-window {
   font-size: 16px;
   font-weight: lighter; }
 
+#active-benefits .checks p {
+  font-size: 18px; }
+#active-benefits .checks i {
+  font-size: 25px; }
+
+#goal-lesson3 span {
+  color: #05BCB0; }
+#goal-lesson3 .note {
+  font-size: 20px;
+  color: #97B306;
+  font-weight: 100;
+  padding: 0; }
+#goal-lesson3 ul {
+  padding-left: 20px; }
+  #goal-lesson3 ul li {
+    padding-bottom: 5px;
+    font-size: 18px; }
+
+#more-benefits-3 .checks p {
+  font-size: 18px; }
+
+#active-profile form p {
+  font-size: 20px; }
+#active-profile textarea {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+  margin-bottom: 30px; }
+#active-profile label {
+  font-weight: bold;
+  font-size: 24px;
+  color: #97B306; }
+#active-profile table {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0; }
+  #active-profile table tr:first-child {
+    height: 60px; }
+  #active-profile table th {
+    background: white; }
+  #active-profile table .t-header {
+    background: #05BCB0; }
+  #active-profile table textarea {
+    margin: 0;
+    height: 80px;
+    width: 250px; }
+#active-profile input[type=submit] {
+  background-color: white;
+  color: #4A4A4A;
+  font-weight: lighter;
+  border: 1px solid #05BCB0;
+  border-radius: 4px;
+  float: right; }
+#active-profile input[type=submit]:hover {
+  background-color: #05BCB0;
+  color: white;
+  font-weight: lighter;
+  border: none;
+  border-radius: 4px; }
+
+#are-you-ready span {
+  color: #05BCB0; }
+#are-you-ready form {
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 20px; }
+  #are-you-ready form input {
+    display: inline; }
+  #are-you-ready form p {
+    display: inline;
+    padding-left: 5px; }
+  #are-you-ready form input[type=submit] {
+    font-size: 15px;
+    background-color: white;
+    color: #4A4A4A;
+    font-weight: lighter;
+    border: 1px solid #05BCB0;
+    border-radius: 4px;
+    float: right; }
+  #are-you-ready form input[type=submit]:hover {
+    font-size: 15px;
+    background-color: #05BCB0;
+    color: white;
+    font-weight: lighter;
+    border: none;
+    border-radius: 4px; }
+
+#active-safe .media-body p {
+  font-size: 20px;
+  padding: 0;
+  margin: 0; }
+#active-safe img {
+  height: 19px;
+  margin-top: 5px; }
+#active-safe .source {
+  margin-bottom: 0; }
+
+#challenges-3 span {
+  color: #05BCB0; }
+#challenges-3 ul {
+  cursor: pointer; }
+  #challenges-3 ul li {
+    color: #97B306; }
+  #challenges-3 ul .sList {
+    cursor: auto;
+    padding: 10px;
+    display: none; }
+    #challenges-3 ul .sList li {
+      color: #4A4A4A;
+      font-size: 18px; }
+  #challenges-3 ul .sub-list {
+    padding-top: 20px; }
+#challenges-3 aside {
+  background-color: #FF8A57;
+  padding: 20px 15px;
+  font-size: 18px; }
+  #challenges-3 aside h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px; }
+  #challenges-3 aside p {
+    color: white; }
+  #challenges-3 aside a {
+    text-decoration: underline; }
+
+#this-week-goal form label {
+  color: #97B306;
+  font-size: 24px;
+  font-family: "helvetica"; }
+#this-week-goal form p {
+  font-size: 20px; }
+#this-week-goal form textarea {
+  width: 100%;
+  height: 100px; }
+
+#eat-well-ways h5, #eat-well-ways-2 h5 {
+  margin-top: 40px; }
+
+#myplate .myplate img {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+#myplate .myplate p {
+  text-align: center;
+  font-style: italic; }
+
+#healthy-meal .meal img {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+#healthy-meal h5 {
+  margin-top: 40px; }
+#healthy-meal .checks p {
+  font-size: 24px;
+  font-weight: 300; }
+
+#food-substitute h5 {
+  margin-top: 50px; }
+
 .modal {
   background-color: #FFF;
   box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
@@ -482,6 +677,9 @@ div.parallax-window {
     font-weight: 400;
     margin-top: 30px;
     color: #97B306; }
+  .modal .title {
+    color: #FF8A57;
+    font-weight: 500; }
 
 .demo-close {
   display: block;
