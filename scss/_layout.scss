@@ -147,18 +147,26 @@ body {
     }
     table {
         border-collapse: collapse;
+        width: 100%;
         th,
         td {
             border: 1px solid $light-grey;
             padding: 15px;
             font-family: "helvetica";
-            font-size: 15px;
+            font-size: 18px;
             font-weight: lighter;
         }
         th {
             background-color: $jungle;
             color: white;
             padding: 8px;
+            font-weight: 300;
+        }
+        .t-total {
+            th {
+                background-color: $orange;
+                font-weight: 400;
+            }
         }
     }
     .inside-row {
@@ -1101,6 +1109,56 @@ div.parallax-window {
 
   }
 }
+
+
+//Session 6
+#about-calorie {
+  .media {
+    img {
+      height: 26px;
+    }
+    .intro-text {
+      margin-bottom: 0;
+    }
+  }
+}
+
+#eat-less-calories {
+  table {
+    .calories-saved {
+      color: $orange;
+      font-weight: 400;
+    }
+  }
+}
+
+#rethink-your-drink, #rethink-your-drink-2 {
+  table {
+    .calories-saved {
+      color: $orange;
+      font-weight: 400;
+    }
+  }
+}
+
+#better-drink-choice {
+  .nutrition-facts {
+    padding: 0;
+  }
+  .col-md-4 {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+#better-drink-choice, #better-drink-choice-2 {
+  h5 {
+    margin-top: 30px;
+  }
+}
+
 
 
 //pop-up modal

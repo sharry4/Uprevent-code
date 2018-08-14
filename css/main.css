@@ -92,18 +92,23 @@ body {
     margin-top: 30px;
     font-weight: lighter; }
   body table {
-    border-collapse: collapse; }
+    border-collapse: collapse;
+    width: 100%; }
     body table th,
     body table td {
       border: 1px solid #CFCFCF;
       padding: 15px;
       font-family: "helvetica";
-      font-size: 15px;
+      font-size: 18px;
       font-weight: lighter; }
     body table th {
       background-color: #05BCB0;
       color: white;
-      padding: 8px; }
+      padding: 8px;
+      font-weight: 300; }
+    body table .t-total th {
+      background-color: #FF8A57;
+      font-weight: 400; }
   body .inside-row {
     padding: 0; }
 
@@ -714,6 +719,28 @@ div.parallax-window {
     text-align: left; }
     #hw-5 table .total input {
       width: 70%; }
+
+#about-calorie .media img {
+  height: 26px; }
+#about-calorie .media .intro-text {
+  margin-bottom: 0; }
+
+#eat-less-calories table .calories-saved {
+  color: #FF8A57;
+  font-weight: 400; }
+
+#rethink-your-drink table .calories-saved, #rethink-your-drink-2 table .calories-saved {
+  color: #FF8A57;
+  font-weight: 400; }
+
+#better-drink-choice .nutrition-facts {
+  padding: 0; }
+#better-drink-choice .col-md-4 img {
+  width: 100%;
+  height: auto; }
+
+#better-drink-choice h5, #better-drink-choice-2 h5 {
+  margin-top: 30px; }
 
 .modal {
   background-color: #FFF;

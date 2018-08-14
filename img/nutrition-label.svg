@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="278px" viewBox="0 0 360 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lesson-6" transform="translate(-608.000000, -6790.000000)">
+            <g id="Group" transform="translate(608.000000, 6790.000000)">
+                <text id="Servings-Per-Contain" font-family="Helvetica-Light, Helvetica" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="15" y="147">Servings Per Container</tspan>
+                </text>
+                <text id="Amount-per-serving" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="14" y="203">Amount per serving</tspan>
+                </text>
+                <text id="Serving-Size" font-family="Helvetica-Light, Helvetica" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="16" y="94">Serving Size</tspan>
+                </text>
+                <text id="Calories" font-family="Helvetica-Light, Helvetica" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="15" y="262">Calories</tspan>
+                </text>
+                <text id="8-fl.-oz." font-family="Helvetica-Light, Helvetica" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="270" y="94">8 fl. oz.</tspan>
+                </text>
+                <text id="2.5" font-family="Helvetica-Light, Helvetica" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="316" y="147">2.5</tspan>
+                </text>
+                <text id="100" font-family="Helvetica-Light, Helvetica" font-size="24" font-weight="300" fill="#000000">
+                    <tspan x="311" y="262">100</tspan>
+                </text>
+                <rect id="Rectangle-10" stroke="#979797" fill="#05BCB0" fill-rule="nonzero" x="1.5" y="0.5" width="358" height="53"></rect>
+                <text id="Nutrition-Facts-labe" font-family="Helvetica" font-size="24" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="67" y="36">Nutrition Facts label</tspan>
+                </text>
+                <rect id="Rectangle-9" stroke="#979797" fill-rule="nonzero" x="1.5" y="0.5" width="358" height="277"></rect>
+                <path d="M0.5,112.25 L358.5,112.25" id="Line-9" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
+                <path d="M1.5,168.25 L359.5,168.25" id="Line-9" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
+                <path d="M1.5,227.25 L359.5,227.25" id="Line-9" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
