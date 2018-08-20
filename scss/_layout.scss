@@ -39,6 +39,9 @@ body {
         font-size: 24px;
         font-weight: 400;
     }
+    span {
+      color: $green;
+    }
     .intro-header {
         i {
             color: $orange;
@@ -201,7 +204,7 @@ header {
 }
 
 div.parallax-window {
-    min-height: 200px;
+    min-height: 230px;
     background: transparent;
     img {
 
@@ -1156,6 +1159,116 @@ div.parallax-window {
 #better-drink-choice, #better-drink-choice-2 {
   h5 {
     margin-top: 30px;
+  }
+}
+
+
+//Session 7
+#ways-to-get-active {
+  img{
+    height: 19px;
+    margin-top: 5px;
+  }
+  .media-body {
+    p {
+      font-size: 24px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+#build-muscles {
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  .video {
+      position: relative; // width: 100%;
+      // height: 0;
+      padding-bottom: 55%;
+  }
+  iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+  }
+  h5 {
+    margin-top: 60px;
+  }
+}
+
+#keep-safe {
+  h5 {
+    margin-top: 40px;
+  }
+  .sub-tiltle {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: $green;
+  }
+  .numebr-list {
+    p {
+      display: inline;
+      font-size: 20px;
+    }
+    .number {
+      color: $blue;
+      font-size: 24px;
+      font-weight: 300;
+    }
+  }
+}
+
+#treat-injury {
+  table {
+    font-size: 24px;
+    span {
+      color: $orange;
+      font-size: 36px;
+    }
+  }
+}
+
+#when-to-stop {
+  h5 {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .sub-tiltle {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: $green;
+  }
+  .detail {
+
+  }
+}
+
+#hw-7 {
+  form {
+    margin-bottom: 50px;
+    textarea {
+      width: 100%;
+    }
+    input[type=submit]{
+      background-color: white;
+      color: $grey;
+      font-weight: lighter;
+      border: 1px solid $jungle;
+      border-radius: 4px;
+      float: right;
+    }
+    input[type=submit]:hover {
+      background-color: $jungle;
+      color: white;
+      font-weight: lighter;
+      border: none;
+      border-radius: 4px;
+    }
   }
 }
 

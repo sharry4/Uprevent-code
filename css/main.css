@@ -31,6 +31,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 400; }
+  body span {
+    color: #97B306; }
   body .intro-header i {
     color: #FF8A57;
     font-size: 50px; }
@@ -130,7 +132,7 @@ header {
     vertical-align: middle; }
 
 div.parallax-window {
-  min-height: 200px;
+  min-height: 230px;
   background: transparent; }
   div.parallax-window img {
     vertical-align: middle; }
@@ -741,6 +743,76 @@ div.parallax-window {
 
 #better-drink-choice h5, #better-drink-choice-2 h5 {
   margin-top: 30px; }
+
+#ways-to-get-active img {
+  height: 19px;
+  margin-top: 5px; }
+#ways-to-get-active .media-body p {
+  font-size: 24px;
+  padding: 0;
+  margin: 0; }
+
+#build-muscles p {
+  padding: 0;
+  margin: 0; }
+#build-muscles .video {
+  position: relative;
+  padding-bottom: 55%; }
+#build-muscles iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+#build-muscles h5 {
+  margin-top: 60px; }
+
+#keep-safe h5 {
+  margin-top: 40px; }
+#keep-safe .sub-tiltle {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #97B306; }
+#keep-safe .numebr-list p {
+  display: inline;
+  font-size: 20px; }
+#keep-safe .numebr-list .number {
+  color: #32C5DD;
+  font-size: 24px;
+  font-weight: 300; }
+
+#treat-injury table {
+  font-size: 24px; }
+  #treat-injury table span {
+    color: #FF8A57;
+    font-size: 36px; }
+
+#when-to-stop h5 {
+  margin-top: 40px;
+  font-size: 30px; }
+#when-to-stop .sub-tiltle {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #97B306; }
+
+#hw-7 form {
+  margin-bottom: 50px; }
+  #hw-7 form textarea {
+    width: 100%; }
+  #hw-7 form input[type=submit] {
+    background-color: white;
+    color: #4A4A4A;
+    font-weight: lighter;
+    border: 1px solid #05BCB0;
+    border-radius: 4px;
+    float: right; }
+  #hw-7 form input[type=submit]:hover {
+    background-color: #05BCB0;
+    color: white;
+    font-weight: lighter;
+    border: none;
+    border-radius: 4px; }
 
 .modal {
   background-color: #FFF;
