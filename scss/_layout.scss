@@ -48,6 +48,7 @@ body {
             font-size: 50px;
         }
     }
+    // Universal check line style
     .checks {
         .col-12 {
             margin-bottom: 15px;
@@ -76,7 +77,7 @@ body {
             color: $orange;
         }
         h5 {
-            color: $green;
+            color: $jungle;
         }
         .intro-header {
             i {
@@ -148,6 +149,7 @@ body {
         margin-top: 30px;
         font-weight: lighter;
     }
+    // universal table style
     table {
         border-collapse: collapse;
         width: 100%;
@@ -1273,6 +1275,17 @@ div.parallax-window {
 }
 
 
+//Session 8
+#plan-advice {
+    padding: 200px 0;
+    .intro-text {
+        font-family: "Oxygen";
+        font-size: 36px;
+        font-weight: 300;
+    }
+}
+
+
 
 //pop-up modal
 .modal {
@@ -1312,6 +1325,67 @@ div.parallax-window {
     transition: transform .3s ease-in-out;
     color: #FFF;
 }
+
+#plan-your-meal {
+  table {
+    width: 100%;
+    td {
+      padding: 0 8px;
+    }
+  }
+}
+
+#healthy-shopping-tips, #healthy-shopping-tips-3 {
+  h5 {
+    margin-top: 30px;
+  }
+}
+
+#hw-8 {
+  table {
+    input {
+      width: 100%;
+    }
+  }
+}
+
+
+//Session 9
+#deal-with-problem-cues, #deal-with-problem-cues-2 {
+  h5 {
+    margin-top: 30px;
+  }
+  ul {
+    li {
+      font-size: 20px;
+      padding-left: 40px;
+      padding-top: 10px;
+    }
+  }
+}
+
+#hw-9 {
+  form {
+    label {
+      font-size: 24px;
+      font-weight: 200;
+      color: $grey;
+      padding-top: 20px;
+    }
+    input {
+      display: block;
+      width: 100%;
+    }
+  }
+  .media {
+    img {
+      height: 34px;
+    }
+  }
+
+}
+
+
 
 .btn-outline.btn-info {
     color: $blue;
