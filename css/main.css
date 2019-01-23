@@ -48,14 +48,16 @@ body {
       padding-right: 10px; }
     body .checks .col-12 ul li {
       font-size: 20px;
-      padding-top: 10px; }
+      padding-top: 10px;
+      padding-left: 50px; }
   body .crossout .col-12 i {
     color: #FF1307;
     font-size: 28px; }
   body .v-orange h3 {
     color: #FF8A57; }
   body .v-orange h5 {
-    color: #05BCB0; }
+    color: #05BCB0;
+    margin-top: 30px; }
   body .v-orange .intro-header i {
     color: #32C5DD;
     font-size: 50px; }
@@ -96,6 +98,8 @@ body {
     color: #4A4A4A;
     margin-top: 30px;
     font-weight: lighter; }
+  body .list {
+    padding-left: 50px; }
   body table {
     border-collapse: collapse;
     width: 100%; }
@@ -116,8 +120,28 @@ body {
       font-weight: 400; }
     body table .tb-background {
       background-color: #A9DDE8; }
+  body textarea {
+    width: 100%; }
   body .inside-row {
     padding: 0; }
+  body input[type=submit] {
+    margin-top: 30px;
+    background-color: white;
+    color: #97B306;
+    font-weight: lighter;
+    border: 1px solid #97B306;
+    border-radius: 4px;
+    float: right; }
+  body input[type=submit]:hover {
+    background-color: #97B306;
+    color: white;
+    font-weight: lighter;
+    border: none;
+    border-radius: 4px; }
+  body .story-image {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px; }
 
 .container {
   margin-right: auto;
@@ -824,37 +848,6 @@ div.parallax-window {
     font-size: 36px;
     font-weight: 300; }
 
-.modal {
-  background-color: #FFF;
-  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
-  padding: 24px;
-  width: 60%;
-  position: relative;
-  display: none;
-  font-size: 18px;
-  font-weight: lighter; }
-  .modal p {
-    margin: 5px; }
-  .modal .quesion {
-    font-weight: 400;
-    margin-top: 30px;
-    color: #97B306; }
-  .modal .title {
-    color: #FF8A57;
-    font-weight: 500; }
-
-.demo-close {
-  display: block;
-  position: absolute;
-  top: -35px;
-  right: 0;
-  z-index: 10000;
-  outline: none;
-  font-size: 30px;
-  line-height: 30px;
-  transition: transform .3s ease-in-out;
-  color: #FFF; }
-
 #plan-your-meal table {
   width: 100%; }
   #plan-your-meal table td {
@@ -958,6 +951,58 @@ div.parallax-window {
   white-space: nowrap; }
   #hw-12 table td input {
     width: 100%; }
+
+#know-your-fats {
+  padding: 150px 0; }
+  #know-your-fats p {
+    color: #97B306;
+    font-size: 42px; }
+
+#avoid-unhealthy-fats p {
+  font-size: 20px;
+  font-weight: 300; }
+
+#review-your-progress-2 form label {
+  font-size: 24px;
+  font-weight: 200;
+  color: #4A4A4A;
+  padding-top: 20px; }
+#review-your-progress-2 form input {
+  display: block;
+  width: 100%; }
+#review-your-progress-2 .media img {
+  height: 34px; }
+
+.modal {
+  background-color: #FFF;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+  padding: 24px;
+  width: 60%;
+  position: relative;
+  display: none;
+  font-size: 18px;
+  font-weight: lighter; }
+  .modal p {
+    margin: 5px; }
+  .modal .quesion {
+    font-weight: 400;
+    margin-top: 30px;
+    color: #97B306; }
+  .modal .title {
+    color: #FF8A57;
+    font-weight: 500; }
+
+.demo-close {
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: 0;
+  z-index: 10000;
+  outline: none;
+  font-size: 30px;
+  line-height: 30px;
+  transition: transform .3s ease-in-out;
+  color: #FFF; }
 
 .btn-outline.btn-info {
   color: #32C5DD;

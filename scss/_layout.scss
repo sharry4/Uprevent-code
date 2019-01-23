@@ -66,6 +66,7 @@ body {
               li {
                 font-size: 20px;
                 padding-top: 10px;
+                padding-left: 50px;
               }
             }
         }
@@ -84,6 +85,7 @@ body {
         }
         h5 {
             color: $jungle;
+            margin-top: 30px;
         }
         .intro-header {
             i {
@@ -155,6 +157,9 @@ body {
         margin-top: 30px;
         font-weight: lighter;
     }
+    .list {
+      padding-left: 50px;
+    }
     // universal table style
     table {
         border-collapse: collapse;
@@ -183,8 +188,32 @@ body {
           background-color: $light-blue;
         }
     }
+    textarea {
+      width: 100%;
+    }
     .inside-row {
       padding: 0;
+    }
+    input[type=submit]{
+      margin-top: 30px;
+      background-color: white;
+      color: $green;
+      font-weight: lighter;
+      border: 1px solid $green;
+      border-radius: 4px;
+      float: right;
+    }
+    input[type=submit]:hover {
+      background-color: $green;
+      color: white;
+      font-weight: lighter;
+      border: none;
+      border-radius: 4px;
+    }
+    .story-image {
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 30px;
     }
 
 }
@@ -1291,47 +1320,6 @@ div.parallax-window {
     }
 }
 
-
-
-//pop-up modal
-.modal {
-    background-color: #FFF;
-    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
-    padding: 24px;
-    width: 60%;
-    position: relative;
-    display: none;
-    font-size: 18px;
-    font-weight: lighter;
-    p {
-        margin: 5px;
-        ;
-    }
-    .quesion {
-        font-weight: 400;
-        margin-top: 30px;
-        color: $green;
-    }
-    .title {
-      color: $orange;
-      font-weight: 500;
-    }
-
-}
-
-.demo-close {
-    display: block;
-    position: absolute;
-    top: -35px;
-    right: 0;
-    z-index: 10000;
-    outline: none;
-    font-size: 30px;
-    line-height: 30px;
-    transition: transform .3s ease-in-out;
-    color: #FFF;
-}
-
 #plan-your-meal {
   table {
     width: 100%;
@@ -1532,7 +1520,84 @@ div.parallax-window {
   }
 }
 
+//session 13
+#know-your-fats {
+  p {
+    color: $green;
+    font-size: 42px;
+  }
+  padding: 150px 0;
+}
 
+#avoid-unhealthy-fats {
+  p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+//session 15
+#review-your-progress-2 {
+  form {
+    label {
+      font-size: 24px;
+      font-weight: 200;
+      color: $grey;
+      padding-top: 20px;
+    }
+    input {
+      display: block;
+      width: 100%;
+    }
+  }
+  .media {
+    img {
+      height: 34px;
+    }
+  }
+}
+
+
+
+
+//pop-up modal
+.modal {
+    background-color: #FFF;
+    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 24px;
+    width: 60%;
+    position: relative;
+    display: none;
+    font-size: 18px;
+    font-weight: lighter;
+    p {
+        margin: 5px;
+        ;
+    }
+    .quesion {
+        font-weight: 400;
+        margin-top: 30px;
+        color: $green;
+    }
+    .title {
+      color: $orange;
+      font-weight: 500;
+    }
+
+}
+
+.demo-close {
+    display: block;
+    position: absolute;
+    top: -35px;
+    right: 0;
+    z-index: 10000;
+    outline: none;
+    font-size: 30px;
+    line-height: 30px;
+    transition: transform .3s ease-in-out;
+    color: #FFF;
+}
 
 .btn-outline.btn-info {
     color: $blue;
