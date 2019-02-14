@@ -5,14 +5,12 @@ body {
     color: #4A4A4A;
     font-family: "helvetica";
     font-weight: 200;
-    padding-bottom: 10px; }
-  body .intro-text {
-    font-size: 24px;
-    font-weight: 200; }
+    padding-bottom: 10px;
+    font-size: 24px; }
   body h2 {
     font-family: 'Oxygen', sans-serif;
     font-size: 64px;
-    color: #FF1307; }
+    color: #FF8A57; }
   body h3 {
     color: #32C5DD;
     font-size: 36px;
@@ -20,12 +18,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     padding-right: 20px; }
-  body h4 {
-    color: #05BCB0;
-    font-size: 24px;
-    padding-bottom: 50px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500; }
   body h5 {
     color: #FF8A57;
     font-family: 'Poppins', sans-serif;
@@ -43,13 +35,24 @@ body {
       font-size: 20px;
       font-weight: 300; }
     body .checks .col-12 i {
-      color: #32C5DD;
+      color: #05BCB0;
       font-size: 24px;
       padding-right: 10px; }
     body .checks .col-12 ul li {
       font-size: 20px;
       padding-top: 10px;
       padding-left: 50px; }
+  body .icons .col-12 {
+    margin-bottom: 30px; }
+    body .icons .col-12 img {
+      display: inline-block;
+      height: 64px;
+      width: auto; }
+    body .icons .col-12 p {
+      display: inline;
+      font-size: 20px; }
+  body .icon-intro {
+    margin-bottom: 40px; }
   body .crossout .col-12 i {
     color: #FF1307;
     font-size: 28px; }
@@ -142,6 +145,20 @@ body {
     float: left;
     margin-right: 30px;
     margin-bottom: 30px; }
+  body .questions label {
+    font-size: 24px;
+    font-weight: 200;
+    color: #4A4A4A;
+    padding-top: 20px; }
+  body .questions .radio-answer {
+    font-size: 24px;
+    font-weight: 200;
+    color: #4A4A4A;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-left: 10px; }
+  body .questions p {
+    padding-bottom: 0; }
 
 .container {
   margin-right: auto;
@@ -229,96 +246,9 @@ div.parallax-window {
 
 #more-intro h5 {
   padding-top: 30px; }
-#more-intro p {
-  font-size: 24px; }
-#more-intro .end-text {
-  margin-top: 100px;
-  color: #FF8A57;
-  text-align: center; }
+#more-intro p:last-child {
+  margin-top: 40px; }
 
-#program-intro p {
-  font-size: 24px; }
-#program-intro .end-text {
-  margin-top: 70px;
-  color: #97B306; }
-
-#stages h5 {
-  font-size: 24px;
-  padding-top: 20px; }
-#stages p {
-  font-size: 24px; }
-#stages .end-text {
-  margin-top: 70px;
-  color: #97B306; }
-
-#program-benefits h5 {
-  font-size: 24px; }
-#program-benefits .col-12 {
-  margin-bottom: 30px; }
-  #program-benefits .col-12 img {
-    display: inline-block;
-    width: auto; }
-  #program-benefits .col-12 p {
-    display: inline;
-    font-size: 16px; }
-
-#motivation ul {
-  font-family: "helvetica";
-  font-size: 16px;
-  font-weight: 100; }
-  #motivation ul li {
-    padding-bottom: 10px;
-    color: #4A4A4A; }
-    #motivation ul li i {
-      font-size: 24px;
-      color: #97B306;
-      vertical-align: middle;
-      padding-right: 10px; }
-#motivation span {
-  color: #97B306;
-  font-weight: normal; }
-
-#expectation p {
-  font-size: 20px;
-  font-weight: 100;
-  padding: 0;
-  margin: 0; }
-
-#diabetes-intro h3 {
-  font-family: 'Poppins', sans-serif; }
-#diabetes-intro img {
-  padding-left: 20px;
-  position: relative; }
-#diabetes-intro .intro-header {
-  margin-bottom: 100px; }
-
-.diabetes-detail h4 {
-  color: #05BCB0;
-  font-size: 24px;
-  padding-bottom: 50px;
-  font-family: 'Poppins', sans-serif; }
-.diabetes-detail .icons {
-  display: flex;
-  justify-content: space-around;
-  text-align: center; }
-  .diabetes-detail .icons p {
-    width: 30%;
-    font-weight: lighter; }
-  .diabetes-detail .icons img {
-    height: 103px; }
-
-#prediabetes img {
-  height: 66px; }
-#prediabetes .icons {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-around; }
-  #prediabetes .icons p {
-    font-size: 18px;
-    font-weight: lighter;
-    padding-left: 15px;
-    width: 40%;
-    height: 66px; }
 #prediabetes ul {
   font-size: 24px;
   font-family: "helvetica";
@@ -326,54 +256,13 @@ div.parallax-window {
   color: #05BCB0;
   width: 650px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 40px; }
 #prediabetes b {
   color: #05BCB0; }
-#prediabetes .intro-text:last-child {
-  padding-top: 40px; }
 
-#goals .icons {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-around; }
-  #goals .icons p {
-    font-size: 18px;
-    font-weight: lighter;
-    padding-left: 15px;
-    width: 60%;
-    margin-top: 0;
-    height: 66px; }
-  #goals .icons img {
-    height: 30px; }
-#goals i {
-  font-size: 30px;
-  color: #97B306; }
-#goals .icons1 {
-  display: flex;
-  justify-content: space-around; }
-  #goals .icons1 p {
-    font-size: 18px;
-    font-weight: lighter;
-    padding-left: 15px;
-    width: 60%;
-    margin-top: 0; }
-
-#benefits .intro-text {
-  color: #97B306; }
-#benefits i {
-  font-size: 20px;
-  color: #32C5DD; }
-#benefits .icons {
-  display: flex;
-  justify-content: space-between; }
-  #benefits .icons p {
-    font-size: 18px;
-    font-weight: lighter;
-    padding-left: 10px;
-    width: 100%;
-    margin-top: 0; }
-  #benefits .icons .space-end {
-    padding-right: 30px; }
+#goals .icons img {
+  height: 20px; }
 
 #end h3 {
   color: #05BCB0; }

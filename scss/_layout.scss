@@ -8,15 +8,16 @@ body {
         font-family: "helvetica";
         font-weight: 200;
         padding-bottom: 10px;
-    }
-    .intro-text {
         font-size: 24px;
-        font-weight: 200;
     }
+    // .intro-text {
+    //     font-size: 24px;
+    //     font-weight: 200;
+    // }
     h2 {
         font-family: 'Oxygen', sans-serif;
         font-size: 64px;
-        color: $red;
+        color: $orange;
     }
     h3 {
         color: $blue;
@@ -25,13 +26,6 @@ body {
         font-family: 'Poppins', sans-serif; //Raleway
         font-weight: 700;
         padding-right: 20px;
-    }
-    h4 {
-        color: $jungle;
-        font-size: 24px;
-        padding-bottom: 50px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
     }
     h5 {
         color: $orange;
@@ -58,9 +52,9 @@ body {
                 font-weight: 300;
             }
             i {
-              color: $blue;
-                font-size: 24px;
-                padding-right: 10px;
+              color: $jungle;
+              font-size: 24px;
+              padding-right: 10px;
             }
             ul {
               li {
@@ -70,6 +64,24 @@ body {
               }
             }
         }
+    }
+    //universal icon style
+    .icons {
+      .col-12 {
+          margin-bottom: 30px;
+          img {
+              display: inline-block;
+              height: 64px;
+              width: auto;
+          }
+          p {
+              display: inline;
+              font-size: 20px; // white-space:nowrap;
+          }
+      }
+    }
+    .icon-intro {
+      margin-bottom: 40px;
     }
     .crossout {
       .col-12 {
@@ -215,6 +227,31 @@ body {
       margin-right: 30px;
       margin-bottom: 30px;
     }
+    .questions {
+      label {
+        font-size: 24px;
+        font-weight: 200;
+        color: $grey;
+        padding-top: 20px;
+      }
+      .radio-answer {
+        font-size: 24px;
+        font-weight: 200;
+        color: $grey;
+        padding-top: 0;
+        padding-right: 30px;
+        padding-left: 10px;
+      }
+      p {
+        padding-bottom: 0;
+      }
+    }
+    .media {
+      //have problem with welcome program-benefits
+      // img {
+      //   height: 34px;
+      // }
+    }
 
 }
 
@@ -320,7 +357,8 @@ div.parallax-window {
 }
 
 
-// Pre-intro
+
+// Pre-intro session
 #welcome {
     text-align: center;
     padding: 150px 0;
@@ -348,143 +386,17 @@ div.parallax-window {
     h5 {
         padding-top: 30px;
     }
-    p {
-        font-size: 24px;
-    }
-    .end-text {
-        margin-top: 100px;
-        color: $orange;
-        text-align: center;
+
+    p:last-child {
+        margin-top: 40px;
     }
 
 }
 
-#program-intro {
-    p {
-        font-size: 24px;
-    }
-    .end-text {
-        margin-top: 70px;
-        color: $green;
-    }
-
-}
-
-#stages {
-    h5 {
-        font-size: 24px;
-        padding-top: 20px;
-    }
-    p {
-        font-size: 24px;
-    }
-    .end-text {
-        margin-top: 70px;
-        color: $green;
-    }
-}
-
-#program-benefits {
-    h5 {
-        font-size: 24px; // padding-bottom: 30px;
-    }
-    .col-12 {
-        margin-bottom: 30px;
-        img {
-            display: inline-block;
-            width: auto;
-        }
-        p {
-            display: inline;
-            font-size: 16px; // white-space:nowrap;
-        }
-    }
-}
-
-#motivation {
-    ul {
-        font-family: "helvetica";
-        font-size: 16px;
-        font-weight: 100;
-        li {
-            padding-bottom: 10px;
-            color: $grey;
-            i {
-                font-size: 24px;
-                color: $green;
-                vertical-align: middle;
-                padding-right: 10px;
-            }
-        }
-    }
-    span {
-        color: $green;
-        font-weight: normal;
-    }
-}
-
-#expectation {
-    p {
-        font-size: 20px;
-        font-weight: 100;
-        padding: 0;
-        margin: 0;
-    }
-}
 
 
 //Session 1
-#diabetes-intro {
-    h3 {
-        // padding-bottom: 70px;
-        font-family: 'Poppins', sans-serif; // font-weight: 700;
-    }
-    img {
-        padding-left: 20px;
-        position: relative;
-    }
-    .intro-header {
-        margin-bottom: 100px;
-    }
-}
-
-.diabetes-detail {
-    h4 {
-        color: $jungle;
-        font-size: 24px;
-        padding-bottom: 50px;
-        font-family: 'Poppins', sans-serif; // font-weight: 300;
-    }
-    .icons {
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        p {
-            width: 30%;
-            font-weight: lighter; // padding-left: 20px;
-        }
-        img {
-            height: 103px;
-        }
-    }
-}
-
 #prediabetes {
-    img {
-        height: 66px;
-    }
-    .icons {
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-around;
-        p {
-            font-size: 18px;
-            font-weight: lighter;
-            padding-left: 15px;
-            width: 40%;
-            height: 66px;
-        }
-    }
     ul {
         font-size: 24px;
         font-family: "helvetica";
@@ -493,77 +405,49 @@ div.parallax-window {
         width: 650px;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 40px;
     }
     b {
         color: $jungle;
-    }
-    .intro-text {
-        &:last-child {
-            padding-top: 40px;
-        }
     }
 
 }
 
 #goals {
     .icons {
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-around;
-        p {
-            font-size: 18px;
-            font-weight: lighter;
-            padding-left: 15px;
-            width: 60%;
-            margin-top: 0;
-            height: 66px;
-        }
+        // margin-top: 50px;
+        // display: flex;
+        // justify-content: space-around;
+        // p {
+        //     font-size: 18px;
+        //     font-weight: lighter;
+        //     width: 60%;
+        //     margin-top: 0;
+        //     height: 66px;
+        // }
         img {
             // padding-left: 20px;
-            height: 30px;
-        }
-    }
-    i {
-        font-size: 30px;
-        color: $green;
-    }
-    .icons1 {
-        // margin-top: 50px;
-        display: flex;
-        justify-content: space-around;
-        p {
-            font-size: 18px;
-            font-weight: lighter;
-            padding-left: 15px;
-            width: 60%;
-            margin-top: 0; // height: 66px;
+            height: 20px;
         }
     }
 }
 
 #benefits {
-    .intro-text {
-        color: $green;
-    }
-    i {
-        font-size: 20px;
-        color: $blue;
-    }
-    .icons {
-        // margin-top: 50px;
-        display: flex;
-        justify-content: space-between;
-        p {
-            font-size: 18px;
-            font-weight: lighter;
-            padding-left: 10px;
-            width: 100%;
-            margin-top: 0; // height: 66px;
-        }
-        .space-end {
-            padding-right: 30px;
-        }
-    }
+    // .icons {
+    //     // margin-top: 50px;
+    //     display: flex;
+    //     justify-content: space-between;
+    //     p {
+    //         font-size: 18px;
+    //         font-weight: lighter;
+    //         padding-left: 10px;
+    //         width: 100%;
+    //         margin-top: 0; // height: 66px;
+    //     }
+    //     .space-end {
+    //         padding-right: 30px;
+    //     }
+    // }
 }
 
 #end {

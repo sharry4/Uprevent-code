@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+<svg width="103px" height="104px" viewBox="0 0 103 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
     <title>Group 17</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" transform="translate(-276.000000, -4094.000000)">
-            <g id="Group-17" transform="translate(276.000000, 4094.000000)">
-                <rect id="Rectangle-6" fill="#A9DDE8" x="0" y="0" width="84" height="84"></rect>
-                <text id="45+" font-family="Avenir-Black, Avenir" font-size="36" font-weight="700" fill="#F67102">
-                    <tspan x="12" y="58">45+</tspan>
+        <g id="Desktop" transform="translate(-70.000000, -4318.000000)">
+            <g id="Group-17" transform="translate(70.000000, 4318.297849)">
+                <rect id="Rectangle-6" fill-opacity="0.7" fill="#05BCB0" x="0" y="0" width="103" height="103"></rect>
+                <text id="45+" font-family="Avenir-Black, Avenir" font-size="36" font-weight="700" fill="#FFFFFF">
+                    <tspan x="18" y="64">45+</tspan>
                 </text>
             </g>
         </g>

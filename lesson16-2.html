@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Lesson 15: The Slippery Slope of Lifestyle Change</title>
+  <title>Lesson 16: Ways to Stay Motivated</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -14,34 +14,59 @@
 </head>
 
 <body>
-  <section id="hw-15" class="container">
+  <section id="ways-to-stay-motivated" class="container">
     <div class="row">
 
       <div class="col-md-10 offset-md-1 v-orange">
         <div class="intro-header" data-aos="fade-up">
-          <h3>Create A Positive Action Plan</h3>
-          <i class="fas fa-flag"></i>
+          <h3>Ways to Stay Motivated</h3>
+          <i class="fas fa-list-ul"></i>
         </div>
 
-        <form action="/action_page.php" method="get">
+        <form action="/action_page.php" method="get" class="questions">
 
-          <p class="intro-text" data-aos="fade-right">During the next week I will —</p>
-
-          <div class="media mt-3" data-aos="zoom-in">
+          <div class="media mb-5" data-aos="zoom-in">
             <img class="mr-4" src="img/1.svg" alt="Number 1">
             <div class="media-body">
-              <p class="intro-text context">Keep track of my weight, eating, and physical activity.</p>
+              <p class="intro-text">Stay aware of the goals you’ve already reached and set new achievable goals for yourself.</p>
+                <label for="question1">What did you hope to achieve when you first joined this program?</label>
+                <textarea name="name" rows="2"></textarea>
+                <label for="question2">Have you reached these goals?</label><br>
+                <input type="radio" value="yes"><label class="radio-answer">Yes</label><br>
+                <input type="radio" value="no"><label class="radio-answer">No</label>
+                <label for="question3">Were there any benefits to being in the program that you did not expect?</label>
+                <textarea name="name" rows="2"></textarea>
+                <label for="question4">What would you like to achieve during the next 6 months of the program?</label>
+                <textarea name="name" rows="2"></textarea>
             </div>
           </div>
 
           <div class="media mb-5" data-aos="zoom-in">
             <img class="mr-4" src="img/2.svg" alt="Number 2">
             <div class="media-body">
-              <p class="intro-text context">Use my two action plans for handling slips.</p>
+              <p class="intro-text">Recognize your achievements.</p>
+              <label for="question1">What changes in your eating and activity do you feel proudest of?</label>
+              <textarea name="name" rows="2"></textarea>
+              <label for="question2">What was easier than you thought it would be? What was harder?</label>
+              <textarea name="name" rows="2"></textarea>
             </div>
           </div>
 
-          <a class="btn-end" href="lesson16-1.html">Finish</a>
+          <div class="media mt-5" data-aos="zoom-in">
+            <img class="mr-4" src="img/3.svg" alt="Number 3">
+            <div class="media-body">
+              <p class="intro-text">Add variety to your routine.</p>
+                <label for="question1">How have you varied your activity?</label>
+                <textarea name="name" rows="2"></textarea>
+                <label for="question2">How do you vary meals and snacks to avoid becoming bored?</label>
+                <textarea name="name" rows="2"></textarea>
+                <label for="question3">Can you think of some new ways to vary your food choices?</label>
+                <textarea name="name" rows="2"></textarea>
+
+            </div>
+          </div>
+
+          <a class="btn-end" href="lesson16-3.html">Submit</a>
 
         </form>
 
