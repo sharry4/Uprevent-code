@@ -16,7 +16,7 @@ body {
     // }
     h2 {
         font-family: 'Oxygen', sans-serif;
-        font-size: 64px;
+        font-size: 90px;
         color: $orange;
     }
     h3 {
@@ -32,6 +32,7 @@ body {
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
         font-weight: 400;
+        padding-bottom: 10px;
     }
     span {
       color: $green;
@@ -48,7 +49,7 @@ body {
             margin-bottom: 15px;
             p {
                 display: inline;
-                font-size: 20px;
+                font-size: 22px;
                 font-weight: 300;
             }
             i {
@@ -71,12 +72,12 @@ body {
           margin-bottom: 30px;
           img {
               display: inline-block;
-              height: 64px;
+              height: 74px;
               width: auto;
           }
           p {
               display: inline;
-              font-size: 20px; // white-space:nowrap;
+              font-size: 24px; // white-space:nowrap;
           }
       }
     }
@@ -185,14 +186,14 @@ body {
             font-weight: lighter;
         }
         th {
-            background-color: $jungle;
+            background-color: $orange;
             color: white;
             padding: 8px;
-            font-weight: 300;
+            font-weight: bold;
         }
         .t-total {
             th {
-                background-color: $orange;
+                background-color: $jungle;
                 font-weight: 400;
             }
         }
@@ -432,73 +433,40 @@ div.parallax-window {
     }
 }
 
-#benefits {
-    // .icons {
-    //     // margin-top: 50px;
-    //     display: flex;
-    //     justify-content: space-between;
-    //     p {
-    //         font-size: 18px;
-    //         font-weight: lighter;
-    //         padding-left: 10px;
-    //         width: 100%;
-    //         margin-top: 0; // height: 66px;
-    //     }
-    //     .space-end {
-    //         padding-right: 30px;
-    //     }
-    // }
-}
-
 #end {
-    h3 {
-        color: $jungle;
-    }
-    .intro-text {
-        color: $orange;
-        font-weight: 300;
-        margin: 0; // padding-top: 30px;
-        &:last-child {
-            margin: 0 30px;
-        }
-    }
-    .context {
-        font-size: 18px;
-        font-weight: lighter; // margin: 20px 0;
-        // &:last-child {
-        //   padding-bottom: 30px;
-        // }
-        span {
-            font-weight: 400;
-        }
-    }
-    .form {
-        display: inline-block;
-    }
-    .space-after {
-        padding-right: 10px;
-    }
-    .spcae-before {
-        padding-left: 10px;
-    }
-    form {
-        display: inline;
-        margin: 0;
-        input {
-            border: 0px solid #000000;
-            border-bottom-width: 1px;
-            background-color: transparent;
-            width: 40px;
-            font-size: 18px;
-            color: $grey;
-            text-align: center;
+  .col-12 {
+    padding-left: 0;
+  }
+  form {
+      margin: 0;
+      input {
+          border: 0px solid #000000;
+          border-bottom-width: 1px;
+          background-color: transparent;
+          width: 40px;
+          font-size: 18px;
+          color: $grey;
+          text-align: center;
 
-        }
+      }
+    }
+    button {
+      // border-color: $grey;
+      // border-radius: 5px;
     }
     table {
-        padding-left: 50px;
-        display: inline;
+      width: 100%;
     }
+    .inline {
+      padding-bottom: 20px;
+      p {
+        display: inline;
+      }
+      input {
+        display: inline;
+      }
+    }
+
 
 }
 
@@ -515,20 +483,11 @@ div.parallax-window {
 }
 
 #sally {
-    span {
-        color: $orange;
-        font-style: italic;
-    }
+
     table {
         border-collapse: collapse;
         width: 100%;
-        th {
-            background-color: $jungle;
-            color: white;
-            padding: 8px;
-            font-size: 18px;
-            font-weight: 300px;
-        }
+
         #t-categories {
             th {
                 background-color: white;
@@ -538,35 +497,24 @@ div.parallax-window {
         }
         #t-total {
             th {
-                background-color: $orange;
+                background-color: $jungle;
                 font-weight: 500;
             }
         }
         .extra {
-            color: $orange;
+            color: $green;
+            font-weight: bold;
         }
+    }
+    p:last-child {
+      padding-top: 30px;
     }
 }
 
 #track-food {
-    p {
-        padding-top: 10px;
-    }
     .col-12 {
         margin-bottom: 30px;
-        img {
-            display: inline-block;
-            width: auto;
-        }
-        p {
-            display: inline;
-            font-size: 16px;
-        }
-        i {
-            color: $blue;
-            font-size: 20px;
-            padding-right: 10px;
-        }
+
     }
 }
 
@@ -575,6 +523,9 @@ div.parallax-window {
         width: 100%;
         img {
             padding-right: 10px;
+        }
+        td {
+        font-size: 20px;
         }
     }
 }
@@ -679,7 +630,7 @@ div.parallax-window {
         ul {
             padding: 10px 40px;
             li {
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: lighter;
                 font-family: "helvetica";
             }

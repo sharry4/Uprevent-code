@@ -9,7 +9,7 @@ body {
     font-size: 24px; }
   body h2 {
     font-family: 'Oxygen', sans-serif;
-    font-size: 64px;
+    font-size: 90px;
     color: #FF8A57; }
   body h3 {
     color: #32C5DD;
@@ -22,7 +22,8 @@ body {
     color: #FF8A57;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
-    font-weight: 400; }
+    font-weight: 400;
+    padding-bottom: 10px; }
   body span {
     color: #97B306; }
   body .intro-header i {
@@ -32,7 +33,7 @@ body {
     margin-bottom: 15px; }
     body .checks .col-12 p {
       display: inline;
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 300; }
     body .checks .col-12 i {
       color: #05BCB0;
@@ -46,11 +47,11 @@ body {
     margin-bottom: 30px; }
     body .icons .col-12 img {
       display: inline-block;
-      height: 64px;
+      height: 74px;
       width: auto; }
     body .icons .col-12 p {
       display: inline;
-      font-size: 20px; }
+      font-size: 24px; }
   body .icon-intro {
     margin-bottom: 40px; }
   body .crossout .col-12 i {
@@ -114,12 +115,12 @@ body {
       font-size: 18px;
       font-weight: lighter; }
     body table th {
-      background-color: #05BCB0;
+      background-color: #FF8A57;
       color: white;
       padding: 8px;
-      font-weight: 300; }
+      font-weight: bold; }
     body table .t-total th {
-      background-color: #FF8A57;
+      background-color: #05BCB0;
       font-weight: 400; }
     body table .tb-background {
       background-color: #A9DDE8; }
@@ -264,27 +265,9 @@ div.parallax-window {
 #goals .icons img {
   height: 20px; }
 
-#end h3 {
-  color: #05BCB0; }
-#end .intro-text {
-  color: #FF8A57;
-  font-weight: 300;
-  margin: 0; }
-  #end .intro-text:last-child {
-    margin: 0 30px; }
-#end .context {
-  font-size: 18px;
-  font-weight: lighter; }
-  #end .context span {
-    font-weight: 400; }
-#end .form {
-  display: inline-block; }
-#end .space-after {
-  padding-right: 10px; }
-#end .spcae-before {
-  padding-left: 10px; }
+#end .col-12 {
+  padding-left: 0; }
 #end form {
-  display: inline;
   margin: 0; }
   #end form input {
     border: 0px solid #000000;
@@ -295,8 +278,13 @@ div.parallax-window {
     color: #4A4A4A;
     text-align: center; }
 #end table {
-  padding-left: 50px;
-  display: inline; }
+  width: 100%; }
+#end .inline {
+  padding-bottom: 20px; }
+  #end .inline p {
+    display: inline; }
+  #end .inline input {
+    display: inline; }
 
 #start-weight-loss .special-text {
   color: #FF8A57;
@@ -305,47 +293,31 @@ div.parallax-window {
   font-family: "helvetica";
   padding-top: 10px; }
 
-#sally span {
-  color: #FF8A57;
-  font-style: italic; }
 #sally table {
   border-collapse: collapse;
   width: 100%; }
-  #sally table th {
-    background-color: #05BCB0;
-    color: white;
-    padding: 8px;
-    font-size: 18px;
-    font-weight: 300px; }
   #sally table #t-categories th {
     background-color: white;
     color: #97B306;
     font-weight: 500; }
   #sally table #t-total th {
-    background-color: #FF8A57;
+    background-color: #05BCB0;
     font-weight: 500; }
   #sally table .extra {
-    color: #FF8A57; }
+    color: #97B306;
+    font-weight: bold; }
+#sally p:last-child {
+  padding-top: 30px; }
 
-#track-food p {
-  padding-top: 10px; }
 #track-food .col-12 {
   margin-bottom: 30px; }
-  #track-food .col-12 img {
-    display: inline-block;
-    width: auto; }
-  #track-food .col-12 p {
-    display: inline;
-    font-size: 16px; }
-  #track-food .col-12 i {
-    color: #32C5DD;
-    font-size: 20px;
-    padding-right: 10px; }
 
 #objects-serving table {
   width: 100%; }
   #objects-serving table img {
     padding-right: 10px; }
+  #objects-serving table td {
+    font-size: 20px; }
 
 #hand-serving .video {
   position: relative;
@@ -414,7 +386,7 @@ div.parallax-window {
 #next-week .col-12 ul {
   padding: 10px 40px; }
   #next-week .col-12 ul li {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
     font-family: "helvetica"; }
 #next-week .note {

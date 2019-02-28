@@ -1,134 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="421px" height="808px" viewBox="0 0 421 808" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
-    <title>food label</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-54.000000, -7906.000000)">
-            <g transform="translate(54.000000, 7906.000000)">
-                <rect stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="420" height="807"></rect>
-                <rect stroke="#979797" fill-opacity="0.6" fill="#F67102" fill-rule="nonzero" x="0.5" y="0.5" width="420" height="65"></rect>
-                <rect id="serving-size" stroke="#979797" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="66.5" width="420" height="76"></rect>
-                <rect id="calories" stroke="#979797" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="152.5" width="420" height="72"></rect>
-                <rect id="limit-these" stroke="#979797" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="227.5" width="420" height="295"></rect>
-                <rect id="get-enough" stroke="#979797" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="523.5" width="420" height="284"></rect>
-                <path d="M23.5,341.5 L403.5,341.5" stroke="#979797" stroke-linecap="square"></path>
-                <path d="M25.5,372.5 L405.5,372.5" stroke="#979797" stroke-linecap="square"></path>
-                <text font-family="Helvetica" font-size="24" font-weight="normal" fill="#FFFFFF">
-                    <tspan x="108" y="47">Nutrition Facts</tspan>
-                </text>
-                <path d="M3.62462462,65.5 L418.392308,65.5" stroke="#979797" stroke-linecap="square"></path>
-                <path d="M3.62462462,65.5 L418.392308,65.5" stroke="#979797" stroke-linecap="square"></path>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="8" y="100">Serving Size 1 cup (228g)</tspan>
-                </text>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="8" y="126">Serving Per Container 2</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="7" y="182">Amount Per Serving</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="7" y="213">Calories</tspan>
-                    <tspan x="73.0234375" y="213" font-family="Helvetica-Light, Helvetica" font-weight="300"> 250</tspan>
-                </text>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="239" y="216">Calories from Fat 110</tspan>
-                </text>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="22" y="363">Saturated Fat 3g</tspan>
-                </text>
-                <text font-family="Helvetica-LightOblique, Helvetica" font-size="18" font-style="italic" font-weight="300" fill="#000000">
-                    <tspan x="22" y="393">Trans</tspan>
-                    <tspan x="65.362" y="393" font-family="Helvetica-Light, Helvetica"> Fat 3g</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="301" y="281">% Daily Value</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="372" y="327">18%</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="372" y="363">15%</tspan>
-                </text>
-                <path d="M0.552493438,697.5 L420.447507,697.5" stroke="#979797" stroke-linecap="square"></path>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="10" y="690">Vitamin A</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="383" y="689">4%</tspan>
-                </text>
-                <path d="M1.5511811,732.5 L420.448819,732.5" stroke="#979797" stroke-linecap="square"></path>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="11" y="725">Vitamin C</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="384" y="724">2%</tspan>
-                </text>
-                <path d="M1.55249344,768.5 L420.5,768.5"  stroke="#979797" stroke-linecap="square"></path>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="11" y="761">Calcium</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="376" y="760">20%</tspan>
-                </text>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="11" y="794">Iron</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="384" y="793">5%</tspan>
-                </text>
-                <path d="M24.5,583.5 L404.5,583.5"  stroke="#979797" stroke-linecap="square"></path>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="21" y="574">Dietary Fiber 0g</tspan>
-                </text>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="21" y="604">Sugars 5g</tspan>
-                </text>
-                <text font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
-                    <tspan x="379" y="574">0%</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="371" y="430">10%</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="8" y="327">Total Fat </tspan>
-                    <tspan x="82.0302734" y="327" font-family="Helvetica-Light, Helvetica" font-weight="300">12g</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="7" y="430">Cholesterol </tspan>
-                    <tspan x="103.046875" y="430" font-family="Helvetica-Light, Helvetica" font-weight="300">30mg</tspan>
-                </text>
-                <path d="M0.624260355,189.5 L420.5,189.5"  stroke="#979797" stroke-linecap="square"></path>
-                <path d="M0.624260355,293.5 L420.5,293.5"  stroke="#979797" stroke-linecap="square"></path>
-                <path d="M0.622781065,404.5 L420.384677,404.5"  stroke="#979797" stroke-linecap="square"></path>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="371" y="468">20%</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="7" y="468">Sodium </tspan>
-                    <tspan x="73.0322266" y="468" font-family="Helvetica-Light, Helvetica" font-weight="300">470mg</tspan>
-                </text>
-                <path d="M0.622781065,442.5 L420.384677,442.5"  stroke="#979797" stroke-linecap="square"></path>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="371" y="506">10%</tspan>
-                </text>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="7" y="506">Total Carbohydrate </tspan>
-                    <tspan x="164.086914" y="506" font-family="Helvetica-Light, Helvetica" font-weight="300">31g</tspan>
-                </text>
-                <path d="M0.624260355,480.5 L420.5,480.5" stroke="#979797" stroke-linecap="square"></path>
-                <rect fill="#4A4A4A" x="0" y="140" width="421" height="12"></rect>
-                <rect fill="#4A4A4A" x="1" y="224" width="419" height="3"></rect>
-                <rect fill="#4A4A4A" x="0" y="521" width="421" height="3"></rect>
-                <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="7" y="644">Protein </tspan>
-                    <tspan x="69.0332031" y="644" font-family="Helvetica-Light, Helvetica" font-weight="300">5g</tspan>
-                </text>
-                <path d="M0.622781065,618.5 L420.384677,618.5" stroke="#979797" stroke-linecap="square"></path>
-                <rect fill="#4A4A4A" x="0" y="659" width="421" height="3"></rect>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 421 808" style="enable-background:new 0 0 421 808;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#979797;}
+	.st1{fill:#FFFFFF;stroke:#979797;}
+	.st2{fill:#F67102;fill-opacity:0.6;stroke:#979797;}
+	.st3{fill:none;stroke:#979797;stroke-linecap:square;}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'Helvetica';}
+	.st6{font-size:24px;}
+	.st7{font-family:'Helvetica-Light';}
+	.st8{font-size:18px;}
+	.st9{font-family:'Helvetica-LightOblique';}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#4A4A4A;}
+</style>
+<title>food label</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<g transform="translate(-54.000000, -7906.000000)">
+		<g transform="translate(54.000000, 7906.000000)">
+			<rect x="0.5" y="0.5" class="st0" width="420" height="807"/>
+			<rect x="0.5" y="0.5" class="st2" width="420" height="65"/>
+			<rect id="serving-size" x="0.5" y="66.5" class="st1" width="420" height="76"/>
+			<rect id="calories" x="0.5" y="152.5" class="st1" width="420" height="72"/>
+			<rect id="limit-these" x="0.5" y="227.5" class="st1" width="420" height="295"/>
+			<rect id="get-enough" x="0.5" y="523.5" class="st1" width="420" height="60"/>
+      <rect id="get-enough-1" x="0.6" y="659" class="st1" width="420" height="148.5"/>
+			<path class="st3" d="M23.5,341.5h380"/>
+			<path class="st3" d="M25.5,372.5h380"/>
+			<text transform="matrix(1 0 0 1 108 47)" class="st4 st5 st6">Nutrition Facts</text>
+			<path class="st3" d="M3.6,65.5h414.8"/>
+			<path class="st3" d="M3.6,65.5h414.8"/>
+			<text transform="matrix(1 0 0 1 8 100)" class="st7 st8">Serving Size 1 cup (228g)</text>
+			<text transform="matrix(1 0 0 1 8 126)" class="st7 st8">Serving Per Container 2</text>
+			<text transform="matrix(1 0 0 1 7 182)" class="st5 st8">Amount Per Serving</text>
+			<text transform="matrix(1 0 0 1 7 213)" class="st5 st8">Calories</text>
+			<text transform="matrix(1 0 0 1 73.0234 213)" class="st5 st8"> </text>
+			<text transform="matrix(1 0 0 1 73.0234 213)" class="st7 st8">250</text>
+			<text transform="matrix(1 0 0 1 239 216)" class="st7 st8">Calories from Fat 110</text>
+			<text transform="matrix(1 0 0 1 22 363)" class="st7 st8">Saturated Fat 3g</text>
+			<text transform="matrix(1 0 0 1 22 393)" class="st9 st8">Trans</text>
+			<text transform="matrix(1 0 0 1 67.0179 393)" class="st9 st8"> </text>
+			<text transform="matrix(1 0 0 1 65.362 393)" class="st9 st8">Fat 3g</text>
+			<text transform="matrix(1 0 0 1 301 281)" class="st5 st8">% Daily Value</text>
+			<text transform="matrix(1 0 0 1 372 327)" class="st5 st8">18%</text>
+			<text transform="matrix(1 0 0 1 372 363)" class="st5 st8">15%</text>
+			<path class="st3" d="M0.6,697.5h419.9"/>
+			<text transform="matrix(1 0 0 1 10 690)" class="st7 st8">Vitamin A</text>
+			<text transform="matrix(1 0 0 1 383 689)" class="st5 st8">4%</text>
+			<path class="st3" d="M1.6,732.5h418.9"/>
+			<text transform="matrix(1 0 0 1 11 725)" class="st7 st8">Vitamin C</text>
+			<text transform="matrix(1 0 0 1 384 724)" class="st5 st8">2%</text>
+			<path class="st3" d="M1.6,768.5h418.9"/>
+			<text transform="matrix(1 0 0 1 11 761)" class="st7 st8">Calcium</text>
+			<text transform="matrix(1 0 0 1 376 760)" class="st5 st8">20%</text>
+			<text transform="matrix(1 0 0 1 11 794)" class="st7 st8">Iron</text>
+			<text transform="matrix(1 0 0 1 384 793)" class="st5 st8">5%</text>
+			<path class="st3" d="M24.5,583.5h380"/>
+			<text transform="matrix(1 0 0 1 21 574)" class="st7 st8">Dietary Fiber 0g</text>
+			<text transform="matrix(1 0 0 1 21 604)" class="st7 st8">Sugars 5g</text>
+			<text transform="matrix(1 0 0 1 379 574)" class="st7 st8">0%</text>
+			<text transform="matrix(1 0 0 1 371 430)" class="st5 st8">10%</text>
+			<text transform="matrix(1 0 0 1 8 327)" class="st5 st8">Total Fat </text>
+			<text transform="matrix(1 0 0 1 82.0303 327)" class="st7 st8">12g</text>
+			<text transform="matrix(1 0 0 1 7 430)" class="st5 st8">Cholesterol </text>
+			<text transform="matrix(1 0 0 1 103.0469 430)" class="st7 st8">30mg</text>
+			<path class="st3" d="M0.6,189.5h419.9"/>
+			<path class="st3" d="M0.6,293.5h419.9"/>
+			<path class="st3" d="M0.6,404.5h419.8"/>
+			<text transform="matrix(1 0 0 1 371 468)" class="st5 st8">20%</text>
+			<text transform="matrix(1 0 0 1 7 468)" class="st5 st8">Sodium </text>
+			<text transform="matrix(1 0 0 1 73.0322 468)" class="st7 st8">470mg</text>
+			<path class="st3" d="M0.6,442.5h419.8"/>
+			<text transform="matrix(1 0 0 1 371 506)" class="st5 st8">10%</text>
+			<text transform="matrix(1 0 0 1 7 506)" class="st5 st8">Total Carbohydrate </text>
+			<text transform="matrix(1 0 0 1 164.0869 506)" class="st7 st8">31g</text>
+			<path class="st3" d="M0.6,480.5h419.9"/>
+			<rect y="140" class="st10" width="421" height="12"/>
+			<rect x="1" y="224" class="st10" width="419" height="3"/>
+			<rect y="521" class="st10" width="421" height="3"/>
+			<text transform="matrix(1 0 0 1 7 644)" class="st5 st8">Protein </text>
+			<text transform="matrix(1 0 0 1 69.0332 644)" class="st7 st8">5g</text>
+			<path class="st3" d="M0.6,618.5h419.8"/>
+			<rect y="659" class="st10" width="421" height="3"/>
+		</g>
+	</g>
+</g>
 </svg>
