@@ -364,7 +364,7 @@ div.parallax-window {
     text-align: center;
     padding: 150px 0;
     h2 {
-        padding-bottom: 70px;
+        padding-bottom: 100px;
         font-weight: 700;
     }
 
@@ -411,26 +411,30 @@ div.parallax-window {
     b {
         color: $jungle;
     }
-
 }
 
 #goals {
-    .icons {
-        // margin-top: 50px;
-        // display: flex;
-        // justify-content: space-around;
-        // p {
-        //     font-size: 18px;
-        //     font-weight: lighter;
-        //     width: 60%;
-        //     margin-top: 0;
-        //     height: 66px;
-        // }
-        img {
-            // padding-left: 20px;
-            height: 20px;
-        }
-    }
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    color: $orange;
+  }
+  .icons {
+      // margin-top: 50px;
+      // display: flex;
+      // justify-content: space-around;
+      // p {
+      //     font-size: 18px;
+      //     font-weight: lighter;
+      //     width: 60%;
+      //     margin-top: 0;
+      //     height: 66px;
+      // }
+      img {
+          // padding-left: 20px;
+          height: 20px;
+      }
+  }
 }
 
 #end {
@@ -443,7 +447,7 @@ div.parallax-window {
           border: 0px solid #000000;
           border-bottom-width: 1px;
           background-color: transparent;
-          width: 40px;
+          width: 100px;
           font-size: 18px;
           color: $grey;
           text-align: center;
@@ -461,9 +465,15 @@ div.parallax-window {
       padding-bottom: 20px;
       p {
         display: inline;
+        font-size: 20px;
       }
       input {
         display: inline;
+      }
+    }
+    .col-md-4 {
+      p {
+        margin-bottom: 0;
       }
     }
 
