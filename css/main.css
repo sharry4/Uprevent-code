@@ -83,7 +83,7 @@ body {
     body .intro-header img {
       vertical-align: baseline; }
   body a {
-    color: inherit;
+    color: #FF8A57;
     text-decoration: underline;
     text-decoration-color: #FF8A57; }
     body a:hover {
@@ -123,7 +123,8 @@ body {
       background-color: #05BCB0;
       font-weight: 400; }
     body table .tb-background {
-      background-color: #A9DDE8; }
+      background-color: #A9DDE8;
+      opacity: 0.6; }
   body textarea {
     width: 100%; }
   body .inside-row {
@@ -401,28 +402,8 @@ div.parallax-window {
   font-size: 16px;
   font-weight: lighter; }
 
-#active-benefits .checks p {
-  font-size: 18px; }
-#active-benefits .checks i {
-  font-size: 25px; }
-
-#goal-lesson3 span {
-  color: #05BCB0; }
-#goal-lesson3 .note {
-  font-size: 20px;
-  color: #97B306;
-  font-weight: 100;
-  padding: 0; }
-#goal-lesson3 ul {
-  padding-left: 20px; }
-  #goal-lesson3 ul li {
-    padding-bottom: 5px;
-    font-size: 18px; }
-
 #more-benefits-3 .intro-text {
   margin-top: 30px; }
-#more-benefits-3 .checks p {
-  font-size: 20px; }
 
 #active-profile form p {
   font-size: 20px; }
@@ -445,7 +426,7 @@ div.parallax-window {
   #active-profile table th {
     background: white; }
   #active-profile table .t-header {
-    background: #05BCB0; }
+    background: #FF8A57; }
   #active-profile table textarea {
     margin: 0;
     height: 80px;
@@ -464,8 +445,6 @@ div.parallax-window {
   border: none;
   border-radius: 4px; }
 
-#are-you-ready span {
-  color: #05BCB0; }
 #are-you-ready form {
   font-family: "helvetica";
   font-weight: lighter;
@@ -501,12 +480,10 @@ div.parallax-window {
 #active-safe .source {
   margin-bottom: 0; }
 
-#challenges-3 span {
-  color: #05BCB0; }
 #challenges-3 ul {
   cursor: pointer; }
   #challenges-3 ul li {
-    color: #97B306; }
+    color: #FF8A57; }
   #challenges-3 ul .sList {
     cursor: auto;
     padding: 10px;
@@ -531,7 +508,6 @@ div.parallax-window {
     text-decoration: underline; }
 
 #this-week-goal form label {
-  color: #97B306;
   font-size: 24px;
   font-family: "helvetica"; }
 #this-week-goal form p {

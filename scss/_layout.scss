@@ -140,7 +140,7 @@ body {
         }
     }
     a {
-        color: inherit;
+        color: $orange;
         text-decoration: underline;
         text-decoration-color: $orange;
 
@@ -199,6 +199,7 @@ body {
         }
         .tb-background {
           background-color: $light-blue;
+          opacity: 0.6;
         }
     }
     textarea {
@@ -655,45 +656,9 @@ div.parallax-window {
 
 
 // Session 3
-#active-benefits {
-    .checks{
-        p{
-            font-size: 18px;
-        }
-        i {
-            font-size: 25px;
-        }
-    }
-}
-
-#goal-lesson3 {
-    span {
-        color: $jungle
-    }
-    .note {
-        font-size: 20px;
-        color: $green;
-        font-weight: 100;
-        padding: 0;
-    }
-    ul {
-        padding-left: 20px;
-        li {
-           padding-bottom: 5px;
-            font-size: 18px;
-        }
-    }
-}
-
 #more-benefits-3 {
   .intro-text {
     margin-top: 30px;
-  }
-  .checks {
-      p {
-         font-size: 20px;
-      }
-
   }
 }
 
@@ -726,7 +691,7 @@ div.parallax-window {
         background: white;
       }
       .t-header {
-        background: $jungle;
+        background: $orange;
       }
       textarea {
         margin: 0;
@@ -752,9 +717,6 @@ div.parallax-window {
 }
 
 #are-you-ready {
-  span {
-    color: $jungle;
-  }
   form {
     font-family: "helvetica";
     font-weight: lighter;
@@ -805,13 +767,10 @@ div.parallax-window {
 }
 
 #challenges-3 {
-  span {
-      color: $jungle;
-  }
   ul {
       cursor: pointer;
       li {
-          color: $green;
+          color: $orange;
       }
       .sList {
           cursor: auto;
@@ -845,10 +804,10 @@ div.parallax-window {
   }
 }
 
+
 #this-week-goal {
   form {
     label {
-      color: $green;
       font-size: 24px;
       font-family: "helvetica";
     }
