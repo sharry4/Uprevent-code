@@ -497,6 +497,8 @@ div.parallax-window {
   background-color: #FF8A57;
   padding: 20px 15px;
   font-size: 18px; }
+  #challenges-3 aside a {
+    color: white; }
   #challenges-3 aside h5 {
     color: white;
     font-size: 20px;
@@ -537,9 +539,6 @@ div.parallax-window {
   display: block; }
 #healthy-meal h5 {
   margin-top: 40px; }
-#healthy-meal .checks p {
-  font-size: 24px;
-  font-weight: 300; }
 
 #food-substitute h5 {
   margin-top: 50px; }

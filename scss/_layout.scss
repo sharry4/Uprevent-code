@@ -789,6 +789,9 @@ div.parallax-window {
     background-color: $orange;
     padding: 20px 15px;
     font-size: 18px;
+    a {
+      color: white;
+    }
     h5 {
       color: white;
       font-size: 20px;
@@ -859,20 +862,12 @@ div.parallax-window {
    h5 {
      margin-top: 40px;
    }
-   .checks {
-     p {
-       font-size: 24px;
-       font-weight: 300;
-     }
-   }
 }
 
 #food-substitute {
   h5 {
     margin-top: 50px;
   }
-
-
 }
 
 
