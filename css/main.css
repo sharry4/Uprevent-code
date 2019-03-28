@@ -597,6 +597,9 @@ div.parallax-window {
   height: 26px; }
 #about-calorie .media .intro-text {
   margin-bottom: 0; }
+#about-calorie .paul {
+  margin-bottom: 0;
+  padding-bottom: 0; }
 
 #eat-less-calories table .calories-saved {
   color: #FF8A57;
@@ -687,7 +690,7 @@ div.parallax-window {
 
 #plan-advice {
   padding: 200px 0; }
-  #plan-advice .intro-text {
+  #plan-advice p {
     font-family: "Oxygen";
     font-size: 36px;
     font-weight: 300; }

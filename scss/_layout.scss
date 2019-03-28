@@ -961,6 +961,10 @@ div.parallax-window {
       margin-bottom: 0;
     }
   }
+  .paul {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 #eat-less-calories {
@@ -1080,9 +1084,6 @@ div.parallax-window {
     margin-bottom: 0;
     color: $green;
   }
-  .detail {
-
-  }
 }
 
 #hw-7 {
@@ -1113,7 +1114,7 @@ div.parallax-window {
 //Session 8
 #plan-advice {
     padding: 200px 0;
-    .intro-text {
+    p {
         font-family: "Oxygen";
         font-size: 36px;
         font-weight: 300;
