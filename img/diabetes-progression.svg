@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="747px" height="58px" viewBox="0 0 747 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-70.000000, -4993.000000)">
+            <g id="Group" transform="translate(70.000000, 4993.000000)">
+                <g id="Group-19" transform="translate(373.500000, 29.000000) rotate(-360.000000) translate(-373.500000, -29.000000) " fill="#F67102" fill-rule="nonzero" stroke="#FFFFFF">
+                    <path d="M232.575674,1.34057971 L0.5,1.34057971 L0.5,56.6594203 L232.575968,56.6594203 L276.068264,29.0332983 L232.575674,1.34057971 Z" id="Rectangle" fill-opacity="0.5"></path>
+                    <path d="M467.137331,0.5 L228.755093,0.5 L274.7726,29.0353242 L228.758679,57.5 L467.137626,57.5 L512.066562,29.0343071 L467.137331,0.5 Z" id="Rectangle" fill-opacity="0.75"></path>
+                    <path d="M701.137331,0.5 L462.755093,0.5 L508.7726,29.0353242 L462.758679,57.5 L701.137626,57.5 L746.066562,29.0343071 L701.137331,0.5 Z" id="Rectangle"></path>
+                </g>
+                <text id="Normal" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="93" y="34">Normal</tspan>
+                </text>
+                <text id="Prediabetes" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="322" y="34">Prediabetes</tspan>
+                </text>
+                <text id="Type-2-Diabetes" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="586.557617" y="26">Type 2</tspan>
+                    <tspan x="575.81543" y="50">Diabetes</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

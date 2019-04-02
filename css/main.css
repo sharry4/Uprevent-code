@@ -48,7 +48,6 @@ body {
     margin-bottom: 30px; }
     body .icons .col-12 img {
       display: inline-block;
-      height: 74px;
       width: auto; }
     body .icons .col-12 p {
       display: inline;
@@ -124,8 +123,7 @@ body {
       background-color: #05BCB0;
       font-weight: 400; }
     body table .tb-background {
-      background-color: #A9DDE8;
-      opacity: 0.6; }
+      background-color: rgba(169, 221, 232, 0.6); }
   body textarea {
     width: 100%; }
   body .inside-row {
@@ -252,17 +250,11 @@ div.parallax-window {
 #more-intro p:last-child {
   margin-top: 40px; }
 
-#prediabetes ul {
-  font-size: 24px;
-  font-family: "helvetica";
-  font-weight: bold;
-  color: #05BCB0;
-  width: 650px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px; }
-#prediabetes b {
-  color: #05BCB0; }
+#prediabetes .media {
+  width: 100%; }
+#prediabetes .mb-5 {
+  padding-left: 15px;
+  padding-right: 15px; }
 
 #goals span {
   font-size: 30px;
@@ -598,6 +590,11 @@ div.parallax-window {
 #about-calorie .media .intro-text {
   margin-bottom: 0; }
 #about-calorie .paul {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+#about-calorie h5 {
+  font-size: 20px;
+  margin-top: 10px;
   margin-bottom: 0;
   padding-bottom: 0; }
 
