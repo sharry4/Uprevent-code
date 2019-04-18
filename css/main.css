@@ -481,14 +481,19 @@
   padding-left: 40px;
   padding-top: 10px; }
 
-#hw-9 form label {
+#hw-9 label {
   font-size: 24px;
   font-weight: 200;
   color: #4A4A4A;
   padding-top: 20px; }
-#hw-9 form input {
+#hw-9 input {
   display: block;
   width: 100%; }
+#hw-9 textarea {
+  height: 150px;
+  border: 1px solid #CFCFCF; }
+#hw-9 input::placeholder {
+  font-style: italic; }
 #hw-9 .media img {
   height: 34px; }
 

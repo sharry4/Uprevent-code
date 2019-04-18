@@ -798,7 +798,6 @@
 }
 
 #hw-9 {
-  form {
     label {
       font-size: 24px;
       font-weight: 200;
@@ -809,7 +808,14 @@
       display: block;
       width: 100%;
     }
-  }
+    textarea {
+      height: 150px;
+      border: 1px solid #CFCFCF;
+    }
+    input::placeholder {
+      font-style: italic;
+    }
+
   .media {
     img {
       height: 34px;
